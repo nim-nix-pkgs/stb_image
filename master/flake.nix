@@ -10,7 +10,7 @@
   inputs.src-stb_image-master.flake = false;
   inputs.src-stb_image-master.ref   = "refs/heads/master";
   inputs.src-stb_image-master.owner = "define-private-public";
-  inputs.src-stb_image-master.repo  = "stb_image-Nim.git";
+  inputs.src-stb_image-master.repo  = "stb_image-Nim";
   inputs.src-stb_image-master.type  = "gitlab";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
