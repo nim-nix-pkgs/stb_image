@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-stb_image-1_6.flake = false;
+  inputs.src-stb_image-1_6.ref   = "refs/tags/1.6";
   inputs.src-stb_image-1_6.owner = "define-private-public";
-  inputs.src-stb_image-1_6.ref   = "1_6";
   inputs.src-stb_image-1_6.repo  = "stb_image-Nim.git";
   inputs.src-stb_image-1_6.type  = "gitlab";
   
