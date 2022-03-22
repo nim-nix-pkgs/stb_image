@@ -1,5 +1,5 @@
 {
-  description = ''A wrapper for stb_image and stb_image_write.'';
+  description = ''A wrapper for stb_image (including stb_image_write).'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,8 +9,8 @@
   
   inputs.src-stb_image-2_0.flake = false;
   inputs.src-stb_image-2_0.owner = "define-private-public";
-  inputs.src-stb_image-2_0.ref   = "refs/tags/2.0";
-  inputs.src-stb_image-2_0.repo  = "stb_image-Nim";
+  inputs.src-stb_image-2_0.ref   = "2_0";
+  inputs.src-stb_image-2_0.repo  = "stb_image-Nim.git";
   inputs.src-stb_image-2_0.type  = "gitlab";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
